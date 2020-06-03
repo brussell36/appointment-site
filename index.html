@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <h1>Book your appointment.</h1>
-    <form id="">
+    <form id="appointmentInfo">
       <div class="form-group"">
         <label for="name">Name:</label>
         <input id="name" type="text" class="form-control">
@@ -29,6 +29,15 @@
       </div>
       <button class="btn" type="submit">Submit</button>
     </form>
+    <div id="output" class="container">
+      <h3>Your booking was successful! Please verify the following info:</h3>
+      <ul>
+        <li id="yourName"></li>
+        <li id="yourDate"></li>
+        <li id="yourDescription"></li>
+        <li id="yourStartEnd"></li>
+      </ul>
+    </div>
   </div>
 </body>
 </html>
